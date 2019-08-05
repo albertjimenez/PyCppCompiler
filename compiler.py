@@ -8,7 +8,7 @@ import subprocess
 import os
 
 # MAC
-MAC_COMPILER = "g++ -framework gecode -std=c++11 -o {0} {1}"
+MAC_COMPILER = "g++ -F/Library/Frameworks -std=c++11 -o {0} -framework gecode {1}"
 # LINUX
 LINUX_COMPILER_1 = "g++ -I/usr/local/include –c {0}"  # {0} is the filename
 LINUX_COMPILER_2 = "g++ -o {0} -L/usr/local/lib {1} –lgecodesearch –lgecodeminimodel –lgecodeint -lgecodekernel " \
