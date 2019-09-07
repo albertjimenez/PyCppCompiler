@@ -2,6 +2,7 @@
 This is a workaround to use CLion and the library Gecode http://www.gecode.org.
 The tutorial contains the section of **[Installation](#installation)**, **[Testing](#testing)** and a little **[Tip](#tip)**
 
+
 ## <a name="installation"><a/>Installation
 The instructions to automate the build and compile execution are this ones:
 
